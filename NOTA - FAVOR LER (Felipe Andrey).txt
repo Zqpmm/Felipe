@@ -1,0 +1,38 @@
+*Peço perdão pelo backend, acabei realmente não conseguindo, o projeto terá alguns resquicios do backend em
+formato de comentário que preferi não apagar para saber futuramente onde eu errei. 
+Estarei me aperfeiçando mais neste framework sendo aprovado ou não, obrigado pela oportunidade.
+
+Angular CLI: 11.0.2
+Node: 14.15.1
+OS: win32 x64
+
+Angular: 11.0.2
+... animations, cli, common, compiler, compiler-cli, core, forms
+... platform-browser, platform-browser-dynamic, router
+Ivy Workspace: Yes
+
+Package                         Version
+---------------------------------------------------------
+@angular-devkit/architect       0.1100.2
+@angular-devkit/build-angular   0.1100.2
+@angular-devkit/core            11.0.2
+@angular-devkit/schematics      11.0.2
+@angular/cdk                    11.0.1
+@angular/material               11.0.1
+@schematics/angular             11.0.2
+@schematics/update              0.1100.2
+rxjs                            6.6.3
+typescript                      4.0.5
+
+(IDE utilizada: Visual Code)
+
+C:\Users>cd ..
+
+C:\cd felipe
+
+C:\felipe>code .
+
+C:\felipe> ng serve   (porta ideal -> localhost:4200)
+
+
+

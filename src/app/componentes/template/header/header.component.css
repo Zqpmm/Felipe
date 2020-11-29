@@ -1,0 +1,26 @@
+*{
+    position: relative;
+    
+}
+
+
+.imagem{
+    position: absolute;
+    width: 1353px;
+    margin-top: -35px;
+    height: 620px;
+    margin-left: -20px;
+}
+
+.vader{
+    margin-top: 950px;
+    height: 200px;
+    width: 260px;
+    margin-left: 1000px;
+    position: relative;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
