@@ -1,6 +1,10 @@
-*Peço perdão pelo backend, acabei realmente não conseguindo, o projeto terá alguns resquicios do backend em
-formato de comentário que preferi não apagar para saber futuramente onde eu errei. 
-Estarei me aperfeiçando mais neste framework sendo aprovado ou não, obrigado pela oportunidade.
+*Em relação ao backend, bom eu consegui fazer, porém não consegui o mais fácil kkk que era mostrar na tela no caso.
+Não sei bem o que ocorreu, ainda estou estudando o framework, porém se você entrar no modo desenvolvedor do
+chrome, na aba console, está mostrando que a API foi de fato consumida, porém não estou conseguindo mostrar com 
+o comando a seguir -> <div *ngFor="let f of felipe"><h1>{{ f.people }}</h1></div> .
+
+*Peço perdão por não ter utilizado a versão do Angular recomendada.
+*Passando (espero que sim kk) ou não, obrigado pela oportunidade.
 
 Angular CLI: 11.0.2
 Node: 14.15.1
@@ -26,13 +30,11 @@ typescript                      4.0.5
 
 (IDE utilizada: Visual Code)
 
-C:\Users>cd ..
+C:\cd pastautilizada
 
-C:\cd felipe
+C:\pastautilizada>code .
 
-C:\felipe>code .
-
-C:\felipe> ng serve   (porta ideal -> localhost:4200)
+C:\pastautilizada > ng serve   (porta ideal -> localhost:4200)
 
 
 

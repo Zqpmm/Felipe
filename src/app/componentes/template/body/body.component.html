@@ -25,25 +25,26 @@
       </div> 
     
       <div class="blocos">
-        <ul class="tabs-nav"> <!-- Iria usar a navegação entre abas, porém meu backend da API n deu mt certo:/-->
+        <ul class="tabs-nav"> <!-- Iria usar a navegação entre abas, porém meu backend da API n deu mt certo ao mostrar :/-->
             <button href="http://localhost:4200/" class="bt bt-medium bt-red bt-100">Personagens</button>
             <button href="http://localhost:4200/" class="bt bt-medium bt-red bt-100">Naves estelares</button>
             <button href="http://localhost:4200/" class="bt bt-medium bt-red bt-100">Planetas</button>
             <button href="http://localhost:4200/" class="bt bt-medium bt-red bt-100">Residentes</button>
         </ul>   
       </div>  
-
       <div class="noticia segundanoticia"></div>
-
+      
       <div class="card quartocard">
           <div class="card-header">
           Informação aleatoria
           </div>
           <div class="card-body">
             <blockquote class="blockquote mb-0">
+              <div *ngFor="let f of felipe"><h1>{{ f.people }}</h1></div>   <!-- aqui que nao consegui mostrar-->
               <p>Informação é a resultante do processamento, manipulação e organização de dados<br>Precisão: A informação não contém erro. Uma informação imprecisa normalmente é originada por dadosss.</p>
               <footer class="blockquote-footer">http://starwars.com</footer>
             </blockquote>
           </div>
       </div>
+      
 </mat-toolbar>
