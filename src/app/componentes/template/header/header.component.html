@@ -1,24 +1,29 @@
-<mat-toolbar class="header">
-    <div id="container-da-imagem">
-        <span>
-            <a>
-                <img src="https://laughingsquid.com/wp-content/uploads/2016/01/an-animated-pixel-art-compilatio.jpg" class="imagem">
-            </a>
-        </span>
-    </div>   
-    <img src="https://64.media.tumblr.com/tumblr_m9wotokOFJ1rfjowdo1_500.gifv" class="vader">   
-    <div class="tabs-container">
-     
+<header>
     
-    <div class="tab-content" ng-show="tab == 2">
-        <h3>Segunda aba</h3>
-            <p>Lorem ...</p>
-        </div>
-    
-        <div class="tab-content" ng-show="tab == 3">
-            <h3>Terceira aba</h3>
-            <p>Lorem ...</p>
-        </div>
+    <nav class="navbar navbar-dark bg-white">
+        <h1 class="titulo">Dashboard</h1>
+        <img src="./assets/logo.jpeg" class="digistarts">
+    </nav>
+
+    <div class="slidenav">
+        <mat-drawer-container class="example-container">
+            <mat-drawer #drawer class="example-sidenav">
+                <button type="button" mat-button >
+                    <mat-icon (click)="drawer.toggle()" class="icone">arrow_right_alt</mat-icon> 
+                    <br><br>
+                    <mat-icon class="icone">assignment_ind</mat-icon> 
+                    <br><br>
+                    <mat-icon class="icone">book_online</mat-icon> 
+                    <br><br>
+                    <mat-icon class="icone">help</mat-icon> 
+                </button>
+            </mat-drawer>
+                <button type="button" mat-button (click)="drawer.toggle()">
+                    <mat-icon class="icone">toc</mat-icon> 
+                </button>
+        </mat-drawer-container>
     </div>
-</mat-toolbar>
+    
+</header>     
+
 
